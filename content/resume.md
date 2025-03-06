@@ -1,7 +1,5 @@
 Title: Krupal Patel's Resume
 Date: 2025-03-06
-Category: Resume
-Slug: krupal-patel-resume
 Author: Krupal Patel
 
 # Krupal Patel

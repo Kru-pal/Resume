@@ -6,7 +6,7 @@ PATH = "content"
 
 TIMEZONE = 'America/Winnipeg'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -31,7 +31,7 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 
-THEME = 'pelican-themes/pelican-striped-html5up'
+THEME = 'themes/pelican-striped-html5up'
 
 
 # Uncomment following line if you want document-relative URLs when developing
