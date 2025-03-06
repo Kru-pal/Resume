@@ -3,6 +3,9 @@
 ## Purpose
 This guide explains how to create a personal resume website using Pelican (a static website generator) and host it on GitHub Pages. This guide is designed to be beginner-friendly, even for those new to Markdown, Git, static site generators, and GitHub. Below is the process step-by-step.
 
+Alignment with Technical Communication:
+The purpose statement clearly defines the goal of the document, which aligns with Process Guideline 1: Know Your Purpose and Your Audience
+
 ## What You Need
 Before starting, make sure you have:
 
@@ -30,12 +33,15 @@ If you're new to Git or Markdown, I suggest reading some beginner tutorials befo
 2. Name it something like `my-resume`.
 3. Make sure to set the repository to **public** and click **Create repository**.
 
+Alignment with Technical Communication:
+This step follows Instructions Guideline 2: Follow the ABC Format by providing an abstract, a body and a conclusion. The numbered steps and clear commands align with Instructions Guideline 3: Use Numbered Lists in the Body.
+
 ---
 
 ### 2. Install Pelican and Set Up Your Website
 
 #### Install Pelican:
-1. Open the command line (Terminal on Mac, Command Prompt or PowerShell on Windows).
+1. Open the command line (Command Prompt Windows and not powershell).
 2. Type this command to install Pelican:
 
     ```bash
@@ -45,7 +51,7 @@ If you're new to Git or Markdown, I suggest reading some beginner tutorials befo
     > *Note: If you don’t have Python installed, follow the instructions on the [Python website](https://www.python.org/downloads/) to install it first.*
 
 #### Create a New Pelican Project:
-1. Create a new folder where you want to keep your project (you can do this in your file explorer or by running `mkdir my-resume` in the command line).
+1. Create a new folder where you want to keep your project.
 2. Navigate into the folder using the command line:
 
     ```bash
@@ -58,19 +64,37 @@ If you're new to Git or Markdown, I suggest reading some beginner tutorials befo
     pelican-quickstart
     ```
 
-    > You’ll be asked a few questions, like the name of your site (you can just press **Enter** to accept the default).
+    > You’ll be asked a few questions, but you can just press **Enter** to accept the default values (except for the URL prefix):
+
+    - **Where do you want to create your new website?**: Press **Enter** (use current directory).
+    - **What will be the title of this website?**: What title you want your website to have.
+    - **Who will be the author of this website?**: Your name.
+    - **What will be the default language of this website?**: Press **Enter** (default is English).
+    - **Do you want to specify a URL prefix?**: Type `y` and enter `https://username.github.io/my-resume` (replace `username` with your GitHub username).
+    - **Do you want to enable article pagination?**: Press **Enter** (default is no).
+    - **How many articles per page do you want?**: Press **Enter** (default is 10).
+    - **What is your time zone?**: Press **Enter** (default is fine).
+    - **Do you want to generate a tasks.py/Makefile to automate generation and publishing?**: Press **Enter** (default is yes).
+    - **Do you want to upload your website using FTP?**: Press **Enter** (default is no).
+    - **Do you want to upload your website using SSH?**: Press **Enter** (default is no).
+    - **Do you want to upload your website using Dropbox?**: Press **Enter** (default is no).
+    - **Do you want to upload your website using S3?**: Press **Enter** (default is no).
+    - **Do you want to upload your website using Rackspace Cloud Files?**: Press **Enter** (default is no).
+    - **Do you want to upload your website using GitHub Pages?**: Press **Enter** (default is yes).
+
+    After this, Pelican will create the necessary files for your project.
 
 ---
 
 ### 3. Create Your Resume in Markdown
 
+Alignment with Technical Communication:
+This step follows Instructions Guideline 6: Lead Off Each Action Step With a Verb by starting each step with a clear action verb. 
+It also aligns with Instructions Guideline 7: Remove Extra Information From the Step by keeping the steps concise and focused on the action.
+
 #### Convert Your Resume to Markdown:
 1. Open your resume in a text editor (like Notepad or VSCode).
-2. Use Markdown to format it. For example:
-
-    - `#` for the title (like your name).
-    - `##` for subheadings (like "Experience" or "Education").
-    - `-` for bullet points.
+2. Use Markdown to format it.
 
     Example of a resume in Markdown:
 
@@ -102,7 +126,8 @@ If you're new to Git or Markdown, I suggest reading some beginner tutorials befo
 
 #### Activate the Theme:
 1. Open the file `pelicanconf.py` in your project folder.
-2. Look for the line `THEME = "path_to_your_theme"`, and change the path to the theme you want to use. If this line does not exist, you can put it anywhere, but just not within the other code lines. For example:
+2. Look for the line `THEME = "path_to_your_theme"`, and change the path to the theme you want to use. If this line does not exist, you can add it.
+   For example:
 
     ```python
     THEME = "themes/the-theme"
@@ -130,6 +155,9 @@ If you're new to Git or Markdown, I suggest reading some beginner tutorials befo
     ```
 
 2. Open your web browser and go to [http://localhost:8000](http://localhost:8000) to see your website.
+
+Alignment with Technical Communication:
+This step follows Instructions Guideline 8: Use Bullets or Letters for Emphasis by using bullet points to highlight key actions (e.g., "Run this command"). It also aligns with Instructions Guideline 10: Keep a Simple Style by using short, direct sentences and avoiding unnecessary complexity.
 
 ---
 
@@ -230,6 +258,9 @@ Your resume website will now be live on GitHub Pages!
 
 You’ve now created and hosted your resume as a website using Pelican and GitHub Pages!
 
+Alignment with Technical Communication:
+This section follows Instructions Guideline 10: Keep a Simple Style by providing a clear, concise conclusion to the process. It also aligns with Process Guideline 3: Use an Objective Point of View by focusing on the result (the live website) rather than directing the reader to perform additional actions.
+
 ---
 
 ## Resources
@@ -249,6 +280,3 @@ A: Markdown is easier to write and read than HTML. You don’t have to learn com
 
 A: If you don’t see the changes right away, it’s likely because your browser is showing an old version of the website. Try clearing the cache or doing a hard refresh by pressing `Ctrl + F5` (on Windows) or `Cmd + Shift + R` (on Mac). Also, make sure you’ve saved, committed, and pushed your changes to GitHub, and give it a little time for the updates to show up.
 
-**Q: I’ve uploaded my files to GitHub, but my website isn’t showing up. What did I do wrong?**
-
-A: Make sure you’ve enabled **GitHub Pages** in the repository settings. Go to the **Settings** tab, scroll down to the **GitHub Pages** section, and select the **branch** (usually main or master) and set it to root. Then click **Save**. If you’ve done this and it’s still not showing, give it a few minutes for the changes to take effect.
