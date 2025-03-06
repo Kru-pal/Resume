@@ -281,8 +281,16 @@ A: Markdown is easier to write and read than HTML. You don’t have to learn com
 
 A: If you don’t see the changes right away, it’s likely because your browser is showing an old version of the website. Try clearing the cache or doing a hard refresh by pressing `Ctrl + F5` (on Windows) or `Cmd + Shift + R` (on Mac). Also, make sure you’ve saved, committed, and pushed your changes to GitHub, and give it a little time for the updates to show up.
 
-## Credits
+### Credits
+- **Author:** Krupal Patel
 
-- Colin Courtney
-- Karson Perche
+- **Peer Reviewers:**  
+  Special thanks to my groupmates for their valuable feedback and peer review:  
+  - Colin Courtney
+  - Karson Perche
+    
+**Inspired by:**  
+  - *Technical Communication: A Practical Approach* by William S. Pfeiffer and Kaye Adkins  
+  - Andrew Etter’s *Modern Technical Writing* (lightweight markup recommendations)
+
 
