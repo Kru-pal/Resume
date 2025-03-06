@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Krupal's Resume</title><link href="https://github.com/Kru-pal/Resume/" rel="alternate"></link><link href="https://github.com/Kru-pal/Resume/feeds/all.atom.xml" rel="self"></link><id>https://github.com/Kru-pal/Resume/</id><updated>2025-03-06T00:00:00-06:00</updated><entry><title>Krupal Patel's Resume</title><link href="https://github.com/Kru-pal/Resume/krupal-patel-resume.html" rel="alternate"></link><published>2025-03-06T00:00:00-06:00</published><updated>2025-03-06T00:00:00-06:00</updated><author><name>Krupal Patel</name></author><id>tag:github.com,2025-03-06:/Kru-pal/Resume/krupal-patel-resume.html</id><summary type="html">&lt;h1&gt;Krupal Patel&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;431-999-1502  &lt;/li&gt;
+&lt;li&gt;patel_krupal@outlook.com  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://linkedin.com/in/kru-pal/"&gt;LinkedIn&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Kru-pal"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Education&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Bachelor of Science in Computer Science&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;University of Manitoba&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Jan 2021 – Present&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Winnipeg, Manitoba&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Technical Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming Languages&lt;/strong&gt;: Java, C++, Python, C, R, C#&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: HTML, CSS, JavaScript, Figma, Svelte, SQL, MongoDB, Neo4J, RStudio, MSSQL, .NET, Docker, Kubernetes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Projects&lt;/h2&gt;
+&lt;h3&gt;US-VISA Appointment …&lt;/h3&gt;</summary><content type="html">&lt;h1&gt;Krupal Patel&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;431-999-1502  &lt;/li&gt;
+&lt;li&gt;patel_krupal@outlook.com  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://linkedin.com/in/kru-pal/"&gt;LinkedIn&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Kru-pal"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Education&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Bachelor of Science in Computer Science&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;University of Manitoba&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Jan 2021 – Present&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Winnipeg, Manitoba&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Technical Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming Languages&lt;/strong&gt;: Java, C++, Python, C, R, C#&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: HTML, CSS, JavaScript, Figma, Svelte, SQL, MongoDB, Neo4J, RStudio, MSSQL, .NET, Docker, Kubernetes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Projects&lt;/h2&gt;
+&lt;h3&gt;US-VISA Appointment Checker Automation&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: JavaScript, Puppeteer, NodeJS, PowerShell&lt;br&gt;
+&lt;strong&gt;Date&lt;/strong&gt;: Jan 2024&lt;br&gt;
+- Implemented an automated system to check for US-VISA appointment availability using Puppeteer and Node.js.
+- Utilized asynchronous JavaScript for real-time data processing, with nodemailer for email notifications.
+- Script scheduled using PowerShell for continuous availability checks every 5 minutes.&lt;/p&gt;
+&lt;h3&gt;Music Database&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: Java, SQL&lt;br&gt;
+&lt;strong&gt;Date&lt;/strong&gt;: Sep 2023&lt;br&gt;
+- Collaborated on a team project to design a DBMS for the top 10,000 songs on Spotify.
+- Implemented security measures, including encryption and parameterized queries, to protect the database against threats.&lt;/p&gt;
+&lt;h3&gt;Food Ordering App&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: Java, Android Studio&lt;br&gt;
+&lt;strong&gt;Date&lt;/strong&gt;: Apr 2023&lt;br&gt;
+- Developed a comprehensive order placement system, integrating frontend and backend components.
+- Used JUnit testing, integration testing, and system testing with Espresso to ensure application stability.&lt;/p&gt;
+&lt;h3&gt;Online Music Streaming Website&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: HTML, Svelte, Figma, CSS, JavaScript&lt;br&gt;
+&lt;strong&gt;Date&lt;/strong&gt;: Dec 2022&lt;br&gt;
+- Developed an online music streaming website focusing on UX/UI design and HCI principles.
+- Conducted usability testing and prototyping in Figma to refine UX/UI.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Experience&lt;/h2&gt;
+&lt;h3&gt;Fritolay Canada&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Position&lt;/strong&gt;: Route Sales Representative&lt;br&gt;
+&lt;strong&gt;Date&lt;/strong&gt;: May 2023 – Present&lt;br&gt;
+&lt;em&gt;Location&lt;/em&gt;: Manitoba&lt;br&gt;
+- Managed sales and routes across Manitoba, maintaining positive retailer relationships, monitoring inventory, and supporting promotions.&lt;/p&gt;
+&lt;h3&gt;Coca-Cola Canada Bottling LTD&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Position&lt;/strong&gt;: Merchandiser&lt;br&gt;
+&lt;strong&gt;Date&lt;/strong&gt;: May 2021 – Apr 2023&lt;br&gt;
+&lt;em&gt;Location&lt;/em&gt;: Regina, SK / Winnipeg, MB&lt;br&gt;
+- Managed strategic merchandising and inventory control for Coca-Cola products, analyzing sales trends and ensuring compliance with company standards.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Extracurricular&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Member of &lt;strong&gt;.DevClub&lt;/strong&gt; and &lt;strong&gt;Computer Science Students Association&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content><category term="Resume"></category></entry></feed>
