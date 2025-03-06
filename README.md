@@ -175,10 +175,27 @@ If you're new to Git or Markdown, I suggest reading some beginner tutorials befo
 
 ### 7. Set Up GitHub Pages
 
-#### Enable GitHub Pages:
-1. Go to your GitHub repository, click on the **Settings** tab, and scroll down to the **GitHub Pages** section.
-2. Under **Source**, select **main** (or **master**) and set it to root.
-3. Click **Save**.
+Follow these steps to host your resume website using GitHub Pages:
+
+1. **Open Repository Settings:**
+   - Go to [GitHub](https://github.com) and log in.
+   - Navigate to your repository (e.g., `my-resume`).
+   - Click on the **Settings** tab.
+
+2. **Enable GitHub Pages:**
+   - Scroll down to the **GitHub Pages** section.
+   - In the **Source** dropdown, select the **main** or **master** branch.
+   - Set it to **/(root)** to make the website files available from the root of your repository.
+
+3. **Save and Wait:**
+   - Click **Save** to apply the settings.
+   - GitHub will take a few minutes to build your site.
+
+4. **Access Your Live Website:**
+   - Once the site is ready, GitHub will show you a link to your live website (e.g., `https://yourusername.github.io/my-resume/`).
+   - Click the link to see your website.
+
+If the site doesn’t appear right away, clear your browser cache or try in an incognito window. Ensure the repository is public for GitHub Pages to work.
 
 ---
 
