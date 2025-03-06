@@ -1,12 +1,12 @@
 AUTHOR = 'Krupal Patel'
-SITENAME = "Krupal's Resume"
+SITENAME = 'Krupal Resume'
 SITEURL = ""
 
 PATH = "content"
 
 TIMEZONE = 'America/Winnipeg'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = 'English'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -29,10 +29,7 @@ SOCIAL = (
     ("Another social link", "#"),
 )
 
-DEFAULT_PAGINATION = 10
-
-THEME = 'themes/pelican-striped-html5up'
-
+DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
