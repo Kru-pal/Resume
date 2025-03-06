@@ -267,6 +267,7 @@ This section follows Instructions Guideline 10: Keep a Simple Style by providing
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Pelican Documentation](https://docs.getpelican.com/en/stable/)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
+- [Static Site Generators Overview](https://www.staticgen.com/)
 
 ---
 
@@ -279,4 +280,9 @@ A: Markdown is easier to write and read than HTML. You don’t have to learn com
 **Q: I changed the Markdown version of my resume, so why don’t I see the changes when I refresh the website in my browser?**
 
 A: If you don’t see the changes right away, it’s likely because your browser is showing an old version of the website. Try clearing the cache or doing a hard refresh by pressing `Ctrl + F5` (on Windows) or `Cmd + Shift + R` (on Mac). Also, make sure you’ve saved, committed, and pushed your changes to GitHub, and give it a little time for the updates to show up.
+
+## Credits
+
+- Colin Courtney
+- Karson Perche
 
