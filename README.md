@@ -67,20 +67,20 @@ This step follows Instructions Guideline 2: Follow the ABC Format by providing a
     > You’ll be asked a few questions, but you can just press **Enter** to accept the default values (except for the URL prefix):
 
     - **Where do you want to create your new website?**: Press **Enter** (use current directory).
-    - **What will be the title of this website?**: What title you want your website to have.
-    - **Who will be the author of this website?**: Your name.
-    - **What will be the default language of this website?**: Press **Enter** (default is English).
+    - **What will be the title of this website?**: Title Name.
+    - **Who will be the author of this website?**: Your Name.
+    - **What will be the default language of this website?**: Press **Enter**.
     - **Do you want to specify a URL prefix?**: Type `y` and enter `https://username.github.io/my-resume` (replace `username` with your GitHub username).
-    - **Do you want to enable article pagination?**: Press **Enter** (default is no).
-    - **How many articles per page do you want?**: Press **Enter** (default is 10).
-    - **What is your time zone?**: Press **Enter** (default is fine).
-    - **Do you want to generate a tasks.py/Makefile to automate generation and publishing?**: Press **Enter** (default is yes).
-    - **Do you want to upload your website using FTP?**: Press **Enter** (default is no).
-    - **Do you want to upload your website using SSH?**: Press **Enter** (default is no).
-    - **Do you want to upload your website using Dropbox?**: Press **Enter** (default is no).
-    - **Do you want to upload your website using S3?**: Press **Enter** (default is no).
-    - **Do you want to upload your website using Rackspace Cloud Files?**: Press **Enter** (default is no).
-    - **Do you want to upload your website using GitHub Pages?**: Press **Enter** (default is yes).
+    - **Do you want to enable article pagination?**: Press **Enter**.
+    - **How many articles per page do you want?**: Press **Enter** .
+    - **What is your time zone?**: Press **Enter**.
+    - **Do you want to generate a tasks.py/Makefile to automate generation and publishing?**: Press **Enter**.
+    - **Do you want to upload your website using FTP?**: Press **Enter**.
+    - **Do you want to upload your website using SSH?**: Press **Enter**.
+    - **Do you want to upload your website using Dropbox?**: Press **Enter**.
+    - **Do you want to upload your website using S3?**: Press **Enter**.
+    - **Do you want to upload your website using Rackspace Cloud Files?**: Press **Enter**.
+    - **Do you want to upload your website using GitHub Pages?**: Press **Enter**.
 
     After this, Pelican will create the necessary files for your project.
 
@@ -96,7 +96,7 @@ It also aligns with Instructions Guideline 7: Remove Extra Information From the 
 1. Open your resume in a text editor (like Notepad or VSCode).
 2. Use Markdown to format it.
 
-    Example of a resume in Markdown:
+    Example:
 
     ```markdown
     # Some One
@@ -107,7 +107,7 @@ It also aligns with Instructions Guideline 7: Remove Extra Information From the 
 
     ## Experience
     ### Software Developer at XYZ Corp.
-    - Worked with a team to build web apps using C++ and JavaScript.
+    - Build web apps using C++ and JavaScript.
 
     ## Education
     - B.S. in Computer Science, University of Manitoba
@@ -285,7 +285,6 @@ A: If you don’t see the changes right away, it’s likely because your browser
 - **Author:** Krupal Patel
 
 - **Peer Reviewers:**  
-  Special thanks to my groupmates for their valuable feedback and peer review:  
   - Colin Courtney
   - Karson Perche
     
